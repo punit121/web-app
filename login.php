@@ -9,7 +9,7 @@
   </head>
 <?php include 'navbar.php'; ?>
 
-<div class="" style="margin-top:40px;">
+<div class="" style="margin-top:40px;margin-bottom:40px;">
 
     <div class="login-wrapper">
       

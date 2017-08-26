@@ -928,7 +928,7 @@ section#about {
 	z-index: 999;
 }
 
-#contact-form input[type=text], .contactForm textarea {
+#contact-form input[type=text],input[type=password], .contactForm textarea {
 	background: rgba(227, 231, 228, 1);
 	font-family: 'Open Sans', sans serif;
 	border: 0;
@@ -941,7 +941,7 @@ section#about {
 	height: 156px;
 }
 
-#contact-form input[type=text]:focus, .contactForm textarea:focus {
+#contact-form input[type=text]:focus,input[type=password]:focus, .contactForm textarea:focus {
 	background: #fff;
 	color: #555;
 	box-shadow: none;
@@ -953,6 +953,11 @@ section#about {
 }
 #contact-form input[type=text] {
 	height: 60px;
+	margin-bottom:30px;
+}
+#contact-form input[type=password] {
+	height: 60px;
+	width: 100%;
 	margin-bottom:30px;
 }
 #contact-form input[type=submit] {
