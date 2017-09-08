@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Company Name</title>
+<title>Salaam Technologies
+</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -33,12 +34,12 @@
 					<ul class="slides">
 						<li>
 						<p class="home-slide-content">
-							<strong>creative</strong> and passion
+							<strong>Salaam </strong> Technologies
 						</p>
 						</li>
 						<li>
 						<p class="home-slide-content">
-							Eat and drink <strong>design</strong>
+							IT Consulting, Staffing & Training
 						</p>
 						</li>
 						<li>
@@ -60,7 +61,8 @@
 	<div class="row">
 		<div class="span6 alignright flyLeft">
 			<blockquote class="large">
-				 There's huge space beetween creativity and imagination <cite>Mark Simmons, Nett Media</cite>
+				WE BUILD IIB APPLICATIONS<br>
+TRAINING: We Provide Extensive Training & Technical Assistance on IBM DataPower, IIB & WMQ <!--cite>Mark Simmons, Nett Media</cite-->
 			</blockquote>
 		</div>
 		<div class="span6 aligncenter flyRight">

@@ -12,7 +12,7 @@
 		<div class="span12">
 			<div class="cform" id="contact-form">
                 <div id="errormessage"></div>
-				<form action="" method="post" role="form" class="contactForm">
+				<form action="action.php" method="post" role="form" class="contactForm">
 					<div class="row">
 						<div class="">
 							<div class="field your-name form-group">
@@ -29,11 +29,23 @@
                                 <div class="validation"></div>
 							</div>
 							<div class="field your-name form-group">
-								<input type="text" name="contact" class="form-control" id="contact" placeholder="Your Phone No." data-rule="minlen:10" data-msg="Please enter at least 10 chars" />
+								<input type="text" name="mobile" class="form-control" id="contact" placeholder="Your Phone No." data-rule="minlen:10" data-msg="Please enter at least 10 chars" />
                                 <div class="validation"></div>
 							</div>
 							<div class="field your-name form-group">
-								<input type="text" name="location" class="form-control" id="location" placeholder="Location" data-rule="minlen:1" data-msg="Please enter at least 1 chars" />
+								<input type="text" name="address" class="form-control" id="address" placeholder="Address" data-rule="minlen:1" data-msg="Please enter at least 1 chars" />
+                                <div class="validation"></div>
+							</div>
+							<div class="field your-name form-group">
+								<input type="text" name="city" class="form-control" id="city" placeholder="City" data-rule="minlen:1" data-msg="Please enter at least 1 chars" />
+                                <div class="validation"></div>
+							</div>
+							<div class="field your-name form-group">
+								<input type="text" name="country" class="form-control" id="country" placeholder="Country" data-rule="minlen:1" data-msg="Please enter at least 1 chars" />
+                                <div class="validation"></div>
+							</div>
+							<div class="field your-name form-group">
+								<input type="text" name="pincode" class="form-control" id="pincode" placeholder="Zip Code" data-rule="minlen:1" data-msg="Please enter at least 1 chars" />
                                 <div class="validation"></div>
 							</div>
 						</div>
