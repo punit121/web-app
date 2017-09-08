@@ -75,23 +75,26 @@ TRAINING: We Provide Extensive Training & Technical Assistance on IBM DataPower,
 <!-- section: team -->
 <section id="about" class="section">
 <div class="container">
-	<h4>Who We Are</h4>
+	<h4>WHY CHOOSE US</h4>
 	<div class="row">
-		<div class="span4 offset1">
+		<div class="span12 ">
 			<div>
-				<h2>We live with <strong>creativity</strong></h2>
+				<h2 style="text-align:center;">We live with <strong>creativity</strong></h2>
 				<p>
-					Li Europan lingues es membres del sam familie. Lor separat existentie es un myth. Por scientie, musica, sport etc, litot Europa usa li sam vocabular. Li lingues differe solmen in li grammatica, li pronunciation e li plu commun vocabules. Omnicos directe al desirabilite de un nov lingua franca: On refusa continuar payar custosi traductores.
-				</p>
+					<b>At Salaam Technologies, we treat each client's business as if it were our own. <br>
+To us, nothing is more important than knowing all we can about your integration goals and aspirations, and helping you to achieve them. <br>
+Our professional team is constantly working to know every significant aspect of your business operation, and the integration needs of your organization.<br> 
+We understand that you are looking for high-quality business consulting, and that’s exactly what we provide.
+				</b></p>
 			</div>
 		</div>
-		<div class="span6">
+		<!--div class="span6">
 			<div class="aligncenter">
 				<img src="img/icons/creativity.png" alt="" />
 			</div>
-		</div>
+		</div-->
 	</div>
-	<div class="row">
+	<!--div class="row">
 		<div class="span2 offset1 flyIn">
 			<div class="people">
 				<img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />
@@ -137,7 +140,7 @@ TRAINING: We Provide Extensive Training & Technical Assistance on IBM DataPower,
 				</p>
 			</div>
 		</div>
-	</div>
+	</div-->
 </div>
 <!-- /.container -->
 </section>
@@ -148,39 +151,55 @@ TRAINING: We Provide Extensive Training & Technical Assistance on IBM DataPower,
 	<h4>Services</h4>
 	<!-- Four columns -->
 	<div class="row">
-		<div class="span3 animated-fast flyIn">
+		<div class="span2 animated-fast flyIn">
 			<div class="service-box">
 				<img src="img/icons/laptop.png" alt="" />
-				<h2>Web design</h2>
-				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				<h2>Consulting</h2>
+				<p style="text-align:justify">
+					Salaam technologies offer a variety of services covering almost every need of enterprise integrations. Learn more about our services below.
+
 				</p>
 			</div>
 		</div>
 		<div class="span3 animated flyIn">
 			<div class="service-box">
 				<img src="img/icons/lab.png" alt="" />
-				<h2>Web development</h2>
-				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				<h2>Staffing</h2>
+				<p style="text-align:justify">
+					 We focus on understanding what you offer beyond a resume and where you want to take your career before seeking to match you with a position.<br>
+We have the inside scoop on your interview and prepare you to show your best side.<br>
+We prepare you for Day 1 success and share ongoing feedback from your manager so you can grow and improve. You’ll also have access to thousands of free training courses.<br>
+We work proactively and diligently to provide you with continuous opportunity
 				</p>
 			</div>
 		</div>
-		<div class="span3 animated-fast flyIn">
+		<div class="span2 animated-fast flyIn">
 			<div class="service-box">
 				<img src="img/icons/camera.png" alt="" />
-				<h2>Photography</h2>
-				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+				<h2>Training</h2>
+				<p style="text-align:justify">
+					Salaam Technologies provides a team of knowledgeable learning advisors, expert instructors, training coordinators, and technical support staff to offer an unparalleled training experience.
+
 				</p>
 			</div>
 		</div>
 		<div class="span3 animated-slow flyIn">
 			<div class="service-box">
 				<img src="img/icons/basket.png" alt="" />
-				<h2>Ecommerce</h2>
+				<h2>Application Development</h2>
+				<p style="text-align:justify">
+					Salaam technologies provide exclusive application development in IBM Integration Bus ranging from WebSphere Message Brokerv7 to IBM Integration Busv10.<br>
+We deliver high quality, easy to maintain, reliable, secure and easy to deploy solutions in IIB
+				</p>
+			</div>
+		</div>
+		<div class="span2 animated-slow flyIn">
+			<div class="service-box">
+				<img src="img/icons/basket.png" alt="" />
+				<h2>Support</h2>
 				<p>
-					 Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+					Salaam technologies Aapplication support services help you get the best out of your existing IIB applications.<br>
+The services span offshore-ability analysis, maintainability analysis, support, and enhancement.
 				</p>
 			</div>
 		</div>
