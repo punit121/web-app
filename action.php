@@ -19,7 +19,7 @@ $sql = "INSERT INTO users (email,Time, name, password, address, city, country, p
 $_SESSION["email"] = $email;
 if ($connection->query($sql)) {
   $connection->close();
-  header('Location: ./home.php');
+  header('Location: ./register-complete.php');
   exit;
 } else {
   echo "Error: " . $connection->error;

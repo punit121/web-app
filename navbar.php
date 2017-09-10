@@ -14,7 +14,7 @@
 					<li><a title="works" href="#works">Works</a></li>
 					<li><a title="blog" href="#blog">Blog</a></li>
 					<li><a title="contact" href="#contact">Contact</a></li>
-					<li><a href="page.php">Page</a></li>
+					<li><a href="register.php">Register</a></li>
 					<li><a href="login.php">Login</a></li>
 				</ul>
 				</nav>
