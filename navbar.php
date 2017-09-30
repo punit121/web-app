@@ -9,9 +9,9 @@
 				<!-- navigation -->
 				<nav class="pull-right nav-collapse collapse">
 				<ul id="menu-main" class="nav">
-					<li><a title="team" href="#about">About</a></li>
-					<li><a title="services" href="#services">Services</a></li>
-					<li><a title="works" href="#works">Works</a></li>
+					<li><a title="team" href="index.php#about">About</a></li>
+					<li><a title="services" href="index.php#services">Services</a></li>
+					<li><a title="works" href="training.php">Training</a></li>
 					<li><a title="blog" href="#blog">Blog</a></li>
 					<li><a title="contact" href="#contact">Contact</a></li>
 					<li><a href="register.php">Register</a></li>
