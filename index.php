@@ -25,7 +25,7 @@
 <div id="header-wrapper" class="header-slider">
 	<header class="clearfix">
 	<div class="logo">
-		<img src="img/logo-image.png" alt="" />
+		<img src="http://via.placeholder.com/150x150" alt="" />
 	</div>
 	<div class="container">
 		<div class="row">
@@ -210,7 +210,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 <!-- section: works -->
 <section id="works" class="section">
 <div class="container clearfix">
-	<h4>Our Works</h4>
+	<h4>Upcoming Courses</h4>
 	<!-- portfolio filter -->
 	<div class="row">
 		<div id="filters" class="span12">
@@ -241,7 +241,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid print photography">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/1.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -256,7 +256,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid print design web">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/2.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -271,7 +271,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid print design">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/3.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -286,7 +286,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid photography web">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/4.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -301,7 +301,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid photography web">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/5.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -316,7 +316,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid photography web">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/6.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -331,7 +331,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid photography web">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/7.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -346,7 +346,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid photography">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/8.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -361,7 +361,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid photography web">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/9.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -376,7 +376,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 				<div class="portfolio-item grid design web">
 					<div class="portfolio">
 						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="img/works/10.png" alt="" />
+						<img src="http://via.placeholder.com/150x150" alt="" />
 						<div class="portfolio-overlay">
 							<div class="thumb-info">
 								<h5>Portfolio name</h5>
@@ -409,10 +409,9 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 </section>
 <!-- end spacer section -->
 <!-- section: blog -->
-<section id="blog" class="section">
+<!--section id="blog" class="section">
 <div class="container">
 	<h4>Our Blog</h4>
-	<!-- Three columns -->
 	<div class="row">
 		<div class="span3">
 			<div class="home-post">
@@ -496,7 +495,7 @@ The services span offshore-ability analysis, maintainability analysis, support, 
 		<a href="#" class="btn btn-large btn-theme">More blog post</a>
 	</div>
 </div>
-</section>
+</section-->
 
 <!-- end spacer section -->
 <!-- section: contact -->
