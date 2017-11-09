@@ -1,568 +1,591 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="utf-8">
-<title>Salaam Technologies
-</title>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="">
-<meta name="author" content="">
-<link href="css/bootstrap-responsive.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="color/default.css" rel="stylesheet">
-<link rel="shortcut icon" href="img/favicon.ico">
-<!-- =======================================================
-    Theme Name: Maxim
-    Theme URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-======================================================= -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sallam Technologies</title>
+  <meta name="description" content="Sallam Technology">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  
 </head>
+
 <body>
-<!-- navbar -->
-<?php include 'navbar.php'; ?>
-<!-- Header area -->
-<div id="header-wrapper" class="header-slider">
-	<header class="clearfix">
-	<div class="logo">
-		<img src="http://via.placeholder.com/150x150" alt="" />
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="span12">
-				<div id="main-flexslider" class="flexslider">
-					<ul class="slides">
-						<li>
-						<p class="home-slide-content">
-							<strong>Salaam </strong> Technologies
-						</p>
-						</li>
-						<li>
-						<p class="home-slide-content">
-							IT Consulting, Staffing & Training
-						</p>
-						</li>
-						<li>
-						<p class="home-slide-content">
-							We loves <strong>simplicity</strong>
-						</p>
-						</li>
-					</ul>
-				</div>
-				<!-- end slider -->
-			</div>
-		</div>
-	</div>
-	</header>
-</div>
-<!-- spacer section -->
-<section class="spacer green">
-<div class="container">
-	<div class="row">
-		<div class="span6 alignright flyLeft">
-			<blockquote class="large">
-				WE BUILD IIB APPLICATIONS<br>
-TRAINING: We Provide Extensive Training & Technical Assistance on IBM DataPower, IIB & WMQ <!--cite>Mark Simmons, Nett Media</cite-->
-			</blockquote>
-		</div>
-		<div class="span6 aligncenter flyRight">
-			<i class="icon-coffee icon-10x"></i>
-		</div>
-	</div>
-</div>
-</section>
-<!-- end spacer section -->
-<!-- section: team -->
-<section id="about" class="section">
-<div class="container">
-	<h4>WHY CHOOSE US</h4>
-	<div class="row">
-		<div class="span12 ">
-			<div>
-				<h2 style="text-align:center;">We live with <strong>creativity</strong></h2>
-				<p>
-					<b>At Salaam Technologies, we treat each client's business as if it were our own. <br>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Sallam<span>Technologies</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+         <li><a title="team" href="index.php#feature">About</a></li>
+          <li><a title="services" href="services.php">Services</a></li>
+          <li><a title="works" href="training.php">Training</a></li>
+          <li><a title="blog" href="#blog">Blog</a></li>
+          <li><a title="contact" href="#contact">Contact</a></li>
+          <li><a href="register.php">Register</a></li>
+          <li><a href="login.php">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Navigation bar-->
+  <!--Modal box-->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+      <!-- Modal content no 1-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center form-title">Login</h4>
+        </div>
+        <div class="modal-body padtrbl">
+
+          <div class="login-box-body">
+            <p class="login-box-msg">Sign in to start your session</p>
+            <div class="form-group">
+              <form name="" id="loginForm">
+                <div class="form-group has-feedback">
+                  <!----- username -------------->
+                  <input class="form-control" placeholder="Username" id="loginid" type="text" autocomplete="off" />
+                  <span style="display:none;font-weight:bold; position:absolute;color: red;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginid"></span>
+                  <!---Alredy exists  ! -->
+                  <span class="glyphicon glyphicon-user form-control-feedback"></span>
+                </div>
+                <div class="form-group has-feedback">
+                  <!----- password -------------->
+                  <input class="form-control" placeholder="Password" id="loginpsw" type="password" autocomplete="off" />
+                  <span style="display:none;font-weight:bold; position:absolute;color: grey;position: absolute;padding:4px;font-size: 11px;background-color:rgba(128, 128, 128, 0.26);z-index: 17;  right: 27px; top: 5px;" id="span_loginpsw"></span>
+                  <!---Alredy exists  ! -->
+                  <span class="glyphicon glyphicon-lock form-control-feedback"></span>
+                </div>
+                <div class="row">
+                  <div class="col-xs-12">
+                    <div class="checkbox icheck">
+                      <label>
+                                <input type="checkbox" id="loginrem" > Remember Me
+                              </label>
+                    </div>
+                  </div>
+                  <div class="col-xs-12">
+                    <button type="button" class="btn btn-green btn-block btn-flat" onclick="userlogin()">Sign In</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--/ Modal box-->
+  <!--Banner-->
+  <div class="banner">
+    <div class="bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="banner-text text-center">
+            <div class="text-border">
+              <h2 class="text-dec">Sallam Technologies</h2>
+            </div>
+            <div class="intro-para text-center quote">
+              <p class="big-text">IT Consulting, Staffing & Training</p>
+           
+              <a href="#footer" class="btn get-quote">GET A QUOTE</a>
+            </div>
+            <a href="#feature" class="mouse-hover">
+              <div class="mouse"></div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Banner-->
+  <!--Feature-->
+  <section id="feature" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>WHY CHOOSE US</h2>
+         <p>
+          <b>At Salaam Technologies, we treat each client's business as if it were our own. <br>
 To us, nothing is more important than knowing all we can about your integration goals and aspirations, and helping you to achieve them. <br>
 Our professional team is constantly working to know every significant aspect of your business operation, and the integration needs of your organization.<br> 
 We understand that you are looking for high-quality business consulting, and that’s exactly what we provide.
-				</b></p>
-			</div>
-		</div>
-		<!--div class="span6">
-			<div class="aligncenter">
-				<img src="img/icons/creativity.png" alt="" />
-			</div>
-		</div-->
-	</div>
-	<!--div class="row">
-		<div class="span2 offset1 flyIn">
-			<div class="people">
-				<img class="team-thumb img-circle" src="img/team/img-1.jpg" alt="" />
-				<h3>John Doe</h3>
-				<p>
-					Art director
-				</p>
-			</div>
-		</div>
-		<div class="span2 flyIn">
-			<div class="people">
-				<img class="team-thumb img-circle" src="img/team/img-2.jpg" alt="" />
-				<h3>Mike Doe</h3>
-				<p>
-					Web developer
-				</p>
-			</div>
-		</div>
-		<div class="span2 flyIn">
-			<div class="people">
-				<img class="team-thumb img-circle" src="img/team/img-3.jpg" alt="" />
-				<h3>Neil Doe</h3>
-				<p>
-					Web designer
-				</p>
-			</div>
-		</div>
-		<div class="span2 flyIn">
-			<div class="people">
-				<img class="team-thumb img-circle" src="img/team/img-4.jpg" alt="" />
-				<h3>Mark Joe</h3>
-				<p>
-					UI designer
-				</p>
-			</div>
-		</div>
-		<div class="span2 flyIn">
-			<div class="people">
-				<img class="team-thumb img-circle" src="img/team/img-5.jpg" alt="" />
-				<h3>Stephen B</h3>
-				<p>
-					Digital imaging
-				</p>
-			</div>
-		</div>
-	</div-->
-</div>
-<!-- /.container -->
-</section>
+        </b></p>
+          <hr class="bottom-line">
+        </div>
+        <!--div class="feature-info">
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>Latest Technologies</h4>
+                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-css3"></i>
+              </div>
+            </div>
+          </div>
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>Toons Background</h4>
+                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-drupal"></i>
+              </div>
+            </div>
+          </div>
+          <div class="fea">
+            <div class="col-md-4">
+              <div class="heading pull-right">
+                <h4>Award Winning Design</h4>
+                <p>Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+              </div>
+              <div class="fea-img pull-left">
+                <i class="fa fa-trophy"></i>
+              </div>
+            </div>
+          </div>
+        </div-->
+      </div>
+    </div>
+  </section>
+  <!--/ feature-->
+
 <!-- end section: team -->
 <!-- section: services -->
-<section id="services" class="section orange">
-<div class="container">
-	<h4>Services</h4>
-	<!-- Four columns -->
-	<div class="row">
-		<div class="span2 animated-fast flyIn">
-			<div class="service-box">
-				<img src="img/icons/laptop.png" alt="" />
-				<h2>Consulting</h2>
-				<p style="text-align:justify">
-					Salaam technologies offer a variety of services covering almost every need of enterprise integrations. Learn more about our services below.
 
-				</p>
-			</div>
-		</div>
-		<div class="span3 animated flyIn">
-			<div class="service-box">
-				<img src="img/icons/lab.png" alt="" />
-				<h2>Staffing</h2>
-				<p style="text-align:justify">
-					 We focus on understanding what you offer beyond a resume and where you want to take your career before seeking to match you with a position.<br>
-We have the inside scoop on your interview and prepare you to show your best side.<br>
-We prepare you for Day 1 success and share ongoing feedback from your manager so you can grow and improve. You’ll also have access to thousands of free training courses.<br>
-We work proactively and diligently to provide you with continuous opportunity
-				</p>
-			</div>
-		</div>
-		<div class="span2 animated-fast flyIn">
-			<div class="service-box">
-				<img src="img/icons/camera.png" alt="" />
-				<h2>Training</h2>
-				<p style="text-align:justify">
-					Salaam Technologies provides a team of knowledgeable learning advisors, expert instructors, training coordinators, and technical support staff to offer an unparalleled training experience.
+  <!--Organisations-->
+  <!--section id="organisations" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="orga-stru">
+              <h3>65%</h3>
+              <p>Say NO!!</p>
+              <i class="fa fa-male"></i>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="orga-stru">
+              <h3>20%</h3>
+              <p>Says Yes!!</p>
+              <i class="fa fa-male"></i>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+            <div class="orga-stru">
+              <h3>15%</h3>
+              <p>Can't Say!!</p>
+              <i class="fa fa-male"></i>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="detail-info">
+            <hgroup>
+              <h3 class="det-txt"> Is inclusive quality education affordable?</h3>
+              <h4 class="sm-txt">(Revised and Updated for 2016)</h4>
+            </hgroup>
+            <p class="det-p">Donec et lectus bibendum dolor dictum auctor in ac erat. Vestibulum egestas sollicitudin metus non urna in eros tincidunt convallis id id nisi in interdum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section-->
+  <!--/ Organisations-->
+  <!--Cta-->
+  <!--section id="cta-2">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2 class="text-center">Subscribe Now</h2>
+          <p class="cta-2-txt">Sign up for our free weekly software design courses, we’ll send them right to your inbox.</p>
+          <div class="cta-2-form text-center">
+            <form action="#" method="post" id="workshop-newsletter-form">
+              <input name="" placeholder="Enter Your Email Address" type="email">
+              <input class="cta-2-form-submit-btn" value="Subscribe" type="submit">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section-->
+  <!--/ Cta-->
+  <!--work-shop-->
+  <section id="work-shop" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Upcoming Workshop</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="service-box text-center">
+            <div class="icon-box">
+              <i class="fa fa-html5 color-green"></i>
+            </div>
+            <div class="icon-text">
+              <h4 class="ser-text">Mentor HTML5 Workshop</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="service-box text-center">
+            <div class="icon-box">
+              <i class="fa fa-css3 color-green"></i>
+            </div>
+            <div class="icon-text">
+              <h4 class="ser-text">Mentor CSS3 Workshop</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="service-box text-center">
+            <div class="icon-box">
+              <i class="fa fa-joomla color-green"></i>
+            </div>
+            <div class="icon-text">
+              <h4 class="ser-text">Mentor Joomla Workshop</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ work-shop-->
+  <!--Faculity member-->
+  <!--section id="faculity-member" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Meet Our Faculty Member</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="img/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Bryan Johnson</p>
+              <p class="pm-staff-profile-title">Lead Software Engineer</p>
 
-				</p>
-			</div>
-		</div>
-		<div class="span3 animated-slow flyIn">
-			<div class="service-box">
-				<img src="img/icons/basket.png" alt="" />
-				<h2>Application Development</h2>
-				<p style="text-align:justify">
-					Salaam technologies provide exclusive application development in IBM Integration Bus ranging from WebSphere Message Brokerv7 to IBM Integration Busv10.<br>
-We deliver high quality, easy to maintain, reliable, secure and easy to deploy solutions in IIB
-				</p>
-			</div>
-		</div>
-		<div class="span2 animated-slow flyIn">
-			<div class="service-box">
-				<img src="img/icons/basket.png" alt="" />
-				<h2>Support</h2>
-				<p>
-					Salaam technologies Aapplication support services help you get the best out of your existing IIB applications.<br>
-The services span offshore-ability analysis, maintainability analysis, support, and enhancement.
-				</p>
-			</div>
-		</div>
-	</div>
-</div>
-</section>
-<!-- end section: services -->
-<!-- section: works -->
-<section id="works" class="section">
-<div class="container clearfix">
-	<h4>Upcoming Courses</h4>
-	<!-- portfolio filter -->
-	<div class="row">
-		<div id="filters" class="span12">
-			<ul class="clearfix">
-				<li><a href="#" data-filter="*" class="active">
-				<h5>All</h5>
-				</a></li>
-				<li><a href="#" data-filter=".web">
-				<h5>Web</h5>
-				</a></li>
-				<li><a href="#" data-filter=".print">
-				<h5>Print</h5>
-				</a></li>
-				<li><a href="#" data-filter=".design">
-				<h5>Design</h5>
-				</a></li>
-				<li><a href="#" data-filter=".photography">
-				<h5>Photography</h5>
-				</a></li>
-			</ul>
-		</div>
-		<!-- END PORTFOLIO FILTERING -->
-	</div>
-	<div class="row">
-		<div class="span12">
-			<div id="portfolio-wrap">
-				<!-- portfolio item -->
-				<div class="portfolio-item grid print photography">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid print design web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid print design">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid photography web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid photography web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid photography web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid photography web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid photography">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid photography web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-				<!-- portfolio item -->
-				<div class="portfolio-item grid design web">
-					<div class="portfolio">
-						<a href="img/works/big.jpg" data-pretty="prettyPhoto[gallery1]" class="portfolio-image">
-						<img src="http://via.placeholder.com/150x150" alt="" />
-						<div class="portfolio-overlay">
-							<div class="thumb-info">
-								<h5>Portfolio name</h5>
-								<i class="icon-plus icon-2x"></i>
-							</div>
-						</div>
-						</a>
-					</div>
-				</div>
-				<!-- end portfolio item -->
-			</div>
-		</div>
-	</div>
-</div>
-</section>
-<!-- spacer section -->
-<section class="spacer bg3">
-<div class="container">
-	<div class="row">
-		<div class="span12 aligncenter flyLeft">
-			<blockquote class="large">
-				 We are an established and trusted web agency with a reputation for commitment and high integrity
-			</blockquote>
-		</div>
-		<div class="span12 aligncenter flyRight">
-			<i class="icon-rocket icon-10x"></i>
-		</div>
-	</div>
-</div>
-</section>
-<!-- end spacer section -->
-<!-- section: blog -->
-<!--section id="blog" class="section">
-<div class="container">
-	<h4>Our Blog</h4>
-	<div class="row">
-		<div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img1.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="date">June 19, 2013</span>
-					<span class="tags"><a href="#">Design</a>, <a href="#">Blog</a></span>
-				</div>
-				<div class="entry-content">
-					<h5><strong><a href="#">New design trends</a></strong></h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-					</p>
-					<a href="#" class="more">Read more</a>
-				</div>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img2.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="date">June 19, 2013</span>
-					<span class="tags"><a href="#">Design</a>, <a href="#">News</a></span>
-				</div>
-				<div class="entry-content">
-					<h5><strong><a href="#">Retro is great</a></strong></h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-					</p>
-					<a href="#" class="more">Read more</a>
-				</div>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img3.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="date">June 22, 2013</span>
-					<span class="tags"><a href="#">Design</a>, <a href="#">Tips</a></span>
-				</div>
-				<div class="entry-content">
-					<h5><strong><a href="#">Isometric mockup</a></strong></h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-					</p>
-					<a href="#" class="more">Read more</a>
-				</div>
-			</div>
-		</div>
-		<div class="span3">
-			<div class="home-post">
-				<div class="post-image">
-					<img class="max-img" src="img/blog/img4.jpg" alt="" />
-				</div>
-				<div class="post-meta">
-					<i class="icon-file icon-2x"></i>
-					<span class="date">June 27, 2013</span>
-					<span class="tags"><a href="#">News</a>, <a href="#">Tutorial</a></span>
-				</div>
-				<div class="entry-content">
-					<h5><strong><a href="#">Free icon set</a></strong></h5>
-					<p>
-						Lorem Ipsum is simply dummy text of the printing and typesetting industry. &hellip;
-					</p>
-					<a href="#" class="more">Read more</a>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="blankdivider30"></div>
-	<div class="aligncenter">
-		<a href="#" class="btn btn-large btn-theme">More blog post</a>
-	</div>
-</div>
-</section-->
+              <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="img/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Bryan Johnson</p>
+              <p class="pm-staff-profile-title">Lead Software Engineer</p>
 
-<!-- end spacer section -->
-<!-- section: contact -->
-<section id="contact" class="section green">
-<div class="container">
-	<h4>Get in Touch</h4>
-	<p>
-		 Reque facer nostro et ius, cu persius mnesarchum disputando eam, clita prompta et mel vidisse phaedrum pri et. Facilisis posidonium ex his. Mutat iudico vis in, mea aeque tamquam scripserit an, mea eu ignota viderer probatus. Lorem legere consetetur ei eum. Sumo aeque assentior te eam, pri nominati posidonium consttuam
-	</p>
-	<div class="blankdivider30">
-	</div>
-	<div class="row">
-		<div class="span12">
-			<div class="cform" id="contact-form">
-				<div id="sendmessage">Your message has been sent. Thank you!</div>
-                <div id="errormessage"></div>
-				<form action="" method="post" role="form" class="contactForm">
-					<div class="row">
-						<div class="span6">
-							<div class="field your-name form-group">
-								<input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                                <div class="validation"></div>
-							</div>
-							<div class="field your-email form-group">
-								<input type="text" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                                <div class="validation"></div>
-							</div>
-							<div class="field subject form-group">
-								<input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-                                <div class="validation"></div>
-							</div>
-						</div>
-						<div class="span6">
-							<div class="field message form-group">
-								<textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-                                <div class="validation"></div>
-							</div>
-							<input type="submit" value="Send message" class="btn btn-theme pull-left">
-						</div>
-					</div>
-				</form>
-			</div>
-		</div>
-		<!-- ./span12 -->
-	</div>
-</div>
-</section>
-<?php include 'footer.php'; ?>
-<a href="#" class="scrollup"><i class="icon-angle-up icon-square icon-bgdark icon-2x"></i></a>
-<script src="js/jquery.js"></script>
-<script src="js/jquery.scrollTo.js"></script>
-<script src="js/jquery.nav.js"></script>
-<script src="js/jquery.localscroll-1.2.7-min.js"></script>
-<script src="js/bootstrap.js"></script>
-<script src="js/jquery.prettyPhoto.js"></script>
-<script src="js/isotope.js"></script>
-<script src="js/jquery.flexslider.js"></script>
-<script src="js/inview.js"></script>
-<script src="js/animate.js"></script>
-<script src="js/custom.js"></script>
-<script src="contactform/contactform.js"></script>
-<script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-    ga('create', 'UA-55234356-4', 'auto');
-    ga('send', 'pageview');
-</script>
+              <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <div class="pm-staff-profile-container">
+            <div class="pm-staff-profile-image-wrapper text-center">
+              <div class="pm-staff-profile-image">
+                <img src="img/mentor.jpg" alt="" class="img-thumbnail img-circle" />
+              </div>
+            </div>
+            <div class="pm-staff-profile-details text-center">
+              <p class="pm-staff-profile-name">Bryan Johnson</p>
+              <p class="pm-staff-profile-title">Lead Software Engineer</p>
+
+              <p class="pm-staff-profile-bio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et placerat dui. In posuere metus et elit placerat tristique. Maecenas eu est in sem ullamcorper tincidunt. </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section-->
+  <!--/ Faculity member-->
+  <!--Testimonial-->
+  <!--section id="testimonial" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2 class="white">See What Our Customer Are Saying?</h2>
+          <p class="white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line bg-white">
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="text-comment">
+            <p class="text-par">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nec sagittis sem"</p>
+            <p class="text-name">Abraham Doe - Creative Dırector</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <div class="text-comment">
+            <p class="text-par">"Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, nec sagittis sem"</p>
+            <p class="text-name">Abraham Doe - Creative Dırector</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section-->
+  <!--/ Testimonial-->
+  <!--Courses-->
+  <section id="courses" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Courses</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course01.jpg" class="img-responsive">
+            <figcaption>
+              <h3>Course Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course02.jpg" class="img-responsive">
+            <figcaption>
+              <h3>Course Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course03.jpg" class="img-responsive">
+            <figcaption>
+              <h3>Course Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course04.jpg" class="img-responsive">
+            <figcaption>
+              <h3>Course Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course05.jpg" class="img-responsive">
+            <figcaption>
+              <h3>Course Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+        <div class="col-md-4 col-sm-6 padleft-right">
+          <figure class="imghvr-fold-up">
+            <img src="img/course06.jpg" class="img-responsive">
+            <figcaption>
+              <h3>Course Name</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam atque, nostrum veniam consequatur libero fugiat, similique quis.</p>
+            </figcaption>
+            <a href="#"></a>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Courses-->
+  <!--Pricing-->
+  <section id="pricing" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Our Pricing</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="price-table">
+            <!-- Plan  -->
+            <div class="pricing-head">
+              <h4>Monthly Plan</h4>
+              <span class="fa fa-usd curency"></span> <span class="amount">200</span>
+            </div>
+
+            <!-- Plean Detail -->
+            <div class="price-in mart-15">
+              <a href="#" class="btn btn-bg green btn-block">PURCHACE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="price-table">
+            <!-- Plan  -->
+            <div class="pricing-head">
+              <h4>Quarterly Plan</h4>
+              <span class="fa fa-usd curency"></span> <span class="amount">800</span>
+            </div>
+
+            <!-- Plean Detail -->
+            <div class="price-in mart-15">
+              <a href="#" class="btn btn-bg yellow btn-block">PURCHACE</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-4">
+          <div class="price-table">
+            <!-- Plan  -->
+            <div class="pricing-head">
+              <h4>Year Plan</h4>
+              <span class="fa fa-usd curency"></span> <span class="amount">1200</span>
+            </div>
+
+            <!-- Plean Detail -->
+            <div class="price-in mart-15">
+              <a href="#" class="btn btn-bg red btn-block">PURCHACE</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ Pricing-->
+  <!--Contact-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Exercitationem nesciunt vitae,<br> maiores, magni dolorum aliquam.</p>
+          <hr class="bottom-line">
+        </div>
+        <div id="sendmessage">Your message has been sent. Thank you!</div>
+        <div id="errormessage"></div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="col-md-6 col-sm-6 col-xs-12 left">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-xs-12 right">
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <!-- Button -->
+            <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <!--/ Contact-->
+  <!--Footer-->
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+
+      <h3>Start Your Free Trial Now!</h3>
+
+      <form class="mc-trial row">
+        <div class="form-group col-md-3 col-md-offset-2 col-sm-4">
+          <div class=" controls">
+            <input name="name" placeholder="Enter Your Name" class="form-control" type="text">
+          </div>
+        </div>
+        <!-- End email input -->
+        <div class="form-group col-md-3 col-sm-4">
+          <div class=" controls">
+            <input name="EMAIL" placeholder="Enter Your email" class="form-control" type="email">
+          </div>
+        </div>
+        <!-- End email input -->
+        <div class="col-md-2 col-sm-4">
+          <p>
+            <button name="submit" type="submit" class="btn btn-block btn-submit">
+            Submit <i class="fa fa-arrow-right"></i></button>
+          </p>
+        </div>
+      </form>
+      <!-- End newsletter-form -->
+      <ul class="social-links">
+        <li><a href="#link"><i class="fa fa-twitter fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-facebook fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-google-plus fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-dribbble fa-fw"></i></a></li>
+        <li><a href="#link"><i class="fa fa-linkedin fa-fw"></i></a></li>
+      </ul>
+      ©2016 Mentor Theme. All rights reserved
+      <div class="credits">
+        <!--
+          All the links in the footer should remain intact.
+          You can delete the links only if you purchased the pro version.
+          Licensing information: https://bootstrapmade.com/license/
+          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Mentor
+        -->
+        Designed by <a href="https://bootstrapmade.com/">BootstrapMade.com</a>
+      </div>
+    </div>
+  </footer>
+  <!--/ Footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
 </body>
+
 </html>

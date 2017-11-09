@@ -1,10 +1,15 @@
 
 <head>
-	<link href="css/bootstrap-responsive.css" rel="stylesheet">
-<link href="css/style.css" rel="stylesheet">
-<link href="css/login.css" rel="stylesheet">
-<link href="color/default.css" rel="stylesheet">
-<link rel="shortcut icon" href="img/favicon.ico">
+	 <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sallam Technologies</title>
+  <meta name="description" content="Sallam Technology">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 
   </head>
 <?php include 'navbar.php'; ?>
